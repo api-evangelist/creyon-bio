@@ -1,7 +1,27 @@
 aid: creyon-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/creyon-bio.png
 name: Creyon Bio
-description: Creyon Bio is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Creyon Bio (branded Creyon) is a San Diego drug-development company operating an
+  AI-powered nucleic acid engineering platform, NucleIQ, that designs oligonucleotide
+  and RNA therapies with tissue- and cell-specific delivery. Creyon uses aptamer-based
+  delivery, lipid nanoparticles, and transferrin-receptor aptamers to cross the
+  blood-brain barrier, targeting immunology, central nervous system (CNS), and
+  neuromuscular indications including late-onset Pompe disease. The company is a
+  venture-backed portfolio company of DCVC and currently advances three wholly-owned
+  programs. This profile is a company/identity record in the API Evangelist network;
+  Creyon publishes no public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/creyon-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Drug Development
+- RNA Therapeutics
+- Oligonucleotides
+- Artificial Intelligence
+- Life Sciences
+- Nucleic Acid Engineering
 apis: []
+common:
+- type: DomainSecurity
+  url: security/creyon-bio-domain-security.yml
+- type: Website
+  url: https://creyon.com/
+- type: Blog
+  url: https://creyon.com/news/
+- type: TermsOfService
+  url: https://creyon.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://creyon.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/creyonbio/
+- type: Twitter
+  url: https://x.com/creyonbio
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

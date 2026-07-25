@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: creyon.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 12 21:16:47 2026 GMT
+  hsts: false
+domains:
+- domain: creyon.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
